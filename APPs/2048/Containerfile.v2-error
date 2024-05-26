@@ -1,5 +1,5 @@
-# buildah build -f Dockerfile.2048.rhel9.v1 -t 2048-connect:v2
-# podman run --rm -d -p 8080:8081 localhost/2048-connect:v2
+# buildah build -f Containerfile.v2-error -t 2048-game:v2
+# podman run --rm -d -p 8080:8081 localhost/2048-game:v2
 FROM registry.redhat.io/rhel9/nginx-120
 MAINTAINER ---YOUR NAME--- <YOUR EM@IL>
 COPY files/src /opt/app-root/src

@@ -1,4 +1,4 @@
-# buildah build -f Dockerfile.2048.rhel8.v1 -t 2048-connect:v1
+# buildah build -f Containerfile.v1 -t 2048-game:v1
 # podman run --rm -d -p 8080:8081 localhost/2048-connect:v1
 FROM registry.redhat.io/rhel8/nginx-120
 MAINTAINER ---YOUR NAME--- <YOUR EM@IL>
